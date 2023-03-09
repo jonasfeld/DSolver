@@ -15,6 +15,7 @@ import {
     GatewayOutlined ,
     PartitionOutlined,
     VideoCameraOutlined,
+    TableOutlined
   } from '@ant-design/icons';
   import { Layout, Menu, theme } from 'antd';
   import React from 'react';
@@ -74,8 +75,8 @@ import {
                     </Link>
                 </Menu.Item>
 
-                <Menu.Item key={"homepage5"} icon={<ForkOutlined />}>
-                    <Link to="/">
+                <Menu.Item key={"homepage5"} icon={<PartitionOutlined />}>
+                    <Link to="/dpll">
                         DPLL
                     </Link>
                 </Menu.Item>
@@ -95,6 +96,13 @@ import {
                 <Menu.Item key={"homepage7"} icon={<RedoOutlined />}>
                     <Link to="/groups">
                         Groups
+                    </Link>
+                </Menu.Item>
+                
+
+                <Menu.Item key={"homepage8"} icon={<TableOutlined />}>
+                    <Link to="/truthtable">
+                        Warheitstabelle
                     </Link>
                 </Menu.Item>
                 

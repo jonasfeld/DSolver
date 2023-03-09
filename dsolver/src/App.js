@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { Modal, Layout, Breadcrumb } from 'antd';
 import { Routes, Navigate, Route } from "react-router-dom";
 
-import {  CustomLayout, Mainpage, HavelHakimi, EEA, RelationalesProdukt, Groups, Kombinatorik  } from "./components"
+import {  CustomLayout, Mainpage, HavelHakimi, EEA, RelationalesProdukt, Groups, Kombinatorik, DPLL } from "./components"
 
 import { HashRouter as Router } from "react-router-dom"
 
 import './main.less';
+import TruthTable from './components/TruthTable/TruthTable';
 
 
 const App = () => {
@@ -44,9 +45,22 @@ const App = () => {
                         </CustomLayout>
                     }/>
 
+                    <Route path="dpll" element={
+                        <CustomLayout>
+                          <DPLL/>
+                        </CustomLayout>
+                    }/>
+
                     <Route path="groups" element={
                         <CustomLayout>
                           <Groups/>
+                        </CustomLayout>
+                    }/>
+                  
+
+                    <Route path="truthtable" element={
+                        <CustomLayout>
+                          <TruthTable/>
                         </CustomLayout>
                     }/>
                   
