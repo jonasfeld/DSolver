@@ -55,11 +55,13 @@ function Teilbarkeit() {
           i++;
         }
       }
+      return primeFactors;
       
     }
+    
   }
 
-  const [primefactors, setPrimefactors] = useState("");
+  const [primesFinal, setPrimesFinal] = useState("");
 
   
     const [input, setInput] = useState("")
@@ -74,7 +76,7 @@ function Teilbarkeit() {
           console.log("keine nummern eingegeben")
         }
         else{
-          setPrimefactors(primefactors(input));
+          setPrimesFinal(primefactors(input));
           setCalculated(true);
           
         }
@@ -118,7 +120,8 @@ function Teilbarkeit() {
         
     {calculated && (
         <Row gutter={[0, 8]} justify={"center"} >
-            <Title style={{"textAlign":"center"}} level ={3}>Primefactors: {primefactors}</Title>
+            <Title style={{"textAlign":"center"}} level ={3}>Primefactors: {primesFinal}</Title>
+            <Text id ="primesFinal"></Text>
         </Row>
       )}
 </>

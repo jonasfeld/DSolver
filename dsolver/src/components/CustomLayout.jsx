@@ -105,6 +105,12 @@ import {
                         Warheitstabelle
                     </Link>
                 </Menu.Item>
+
+                <Menu.Item key={"homepage9"} icon={<TableOutlined />}>
+                    <Link to="/teilbarkeit">
+                        Teilbarkeit
+                    </Link>
+                </Menu.Item>
                 
             </Menu>
 
