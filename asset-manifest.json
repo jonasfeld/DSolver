@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/DSolver/static/css/main.d02fbf70.css",
-    "main.js": "/DSolver/static/js/main.cdf7a351.js",
+    "main.js": "/DSolver/static/js/main.36d089f7.js",
     "static/media/relation.png": "/DSolver/static/media/relation.96c9c73eaa99f5789f13.png",
     "static/media/dpll.png": "/DSolver/static/media/dpll.7600be9fb6c77247844f.png",
     "static/media/hakimi.png": "/DSolver/static/media/hakimi.7264db90b85f230b899b.png",
     "static/media/groups.png": "/DSolver/static/media/groups.766f789036a51dfb774a.png",
+    "static/media/matching.png": "/DSolver/static/media/matching.ed6c50543096d9036258.png",
     "static/media/eea.png": "/DSolver/static/media/eea.227cafae9b021a061546.png",
     "static/media/kombinatorik.png": "/DSolver/static/media/kombinatorik.e8e3206dc9fd96a4b9fd.png",
     "static/media/truthtable.png": "/DSolver/static/media/truthtable.d81a0d09c5912eaa5c19.png",
@@ -15,10 +16,10 @@
     "static/media/favicon.ico": "/DSolver/static/media/favicon.b188f5ae5b9d94bbc643.ico",
     "index.html": "/DSolver/index.html",
     "main.d02fbf70.css.map": "/DSolver/static/css/main.d02fbf70.css.map",
-    "main.cdf7a351.js.map": "/DSolver/static/js/main.cdf7a351.js.map"
+    "main.36d089f7.js.map": "/DSolver/static/js/main.36d089f7.js.map"
   },
   "entrypoints": [
     "static/css/main.d02fbf70.css",
-    "static/js/main.cdf7a351.js"
+    "static/js/main.36d089f7.js"
   ]
 }
